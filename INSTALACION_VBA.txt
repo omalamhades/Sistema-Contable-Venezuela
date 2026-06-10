@@ -1,0 +1,111 @@
+========================================
+PASOS PARA INSTALAR EL SISTEMA CONTABLE
+========================================
+
+PASO 1: CREAR ARCHIVO EXCEL BASE
+
+1. Abrir Excel
+2. Crear nuevo documento en blanco
+3. Guardar como: SistemaContable_Venezuela.xlsm
+   (Importante: .xlsm para permitir macros)
+
+
+PASO 2: CREAR HOJAS
+
+Añadir estas hojas al archivo:
+
+1. Panel_Control
+2. Plan_Cuentas
+3. Empresas
+4. Asientos
+5. Libro_Compras
+6. Libro_Ventas
+7. Retencion_IVA
+8. Retencion_ISLR
+9. Diario
+10. Mayor
+11. Balance
+12. Estado_Resultados
+13. Situacion_Financiera
+
+
+PASO 3: CREAR TABLAS DE DATOS
+
+En cada hoja, crear encabezados:
+
+HOJA: Plan_Cuentas
+Columnas: Código | Nombre | Tipo | Naturaleza | Activo
+
+HOJA: Empresas
+Columnas: Nombre | RUC | Fecha_Creacion | Estado
+
+HOJA: Asientos
+Columnas: Numero | Fecha | Descripcion | Cuenta_Debe | Monto_Debe | Cuenta_Haber | Monto_Haber | Empresa | Periodo | Auditoria
+
+
+PASO 4: DESCARGAR ARCHIVO COMPLETO
+
+El archivo SistemaContable_Venezuela.xlsm ya contiene:
+- Todas las hojas creadas
+- Código VBA completo en módulos
+- Botones funcionales
+- Validaciones implementadas
+- Ejemplos de datos
+
+Descárgalo directamente desde Releases
+
+
+PASO 5: HABILITAR MACROS
+
+Windows:
+1. Archivo → Opciones
+2. Centro de confianza → Configuración del Centro de confianza
+3. Configuración de macros
+4. Seleccionar: "Habilitar todas las macros"
+5. Aceptar
+
+Mac:
+1. Herramientas → Seguridad
+2. Marcar: "Permitir macros automatizadas"
+
+
+PASO 6: USAR EL SISTEMA
+
+1. Abrir SistemaContable_Venezuela.xlsm
+2. Si pregunta sobre macros, hacer click en "Habilitar contenido"
+3. Ir a Panel_Control
+4. Comenzar a usar los botones
+
+
+PASO 7: DATOS DE PRUEBA
+
+1. Click "NUEVA EMPRESA"
+2. Crear: "Empresa Test", RUC: "J-12345678-9"
+3. Ir a Plan_Cuentas
+4. Agregar algunas cuentas de prueba
+5. Ir a Asientos
+6. Click "NUEVO ASIENTO"
+7. Crear asiento de prueba
+
+
+PASO 8: GENERAR REPORTES
+
+1. Click en "GENERAR REPORTES"
+2. Seleccionar tipo: Diario, Mayor, Balance
+3. Los reportes se generan automáticamente
+4. Imprimir si es necesario
+
+
+========================================
+¡SISTEMA LISTO PARA USAR!
+========================================
+
+Si tienes problemas:
+
+1. Revisar que macros estén habilitadas
+2. Verificar que todas las hojas existan
+3. Revisar que código VBA esté en módulos correctos
+4. Hacer backup de datos regularmente
+5. Consultar MANUAL_USUARIO.md para más ayuda
+
+========================================

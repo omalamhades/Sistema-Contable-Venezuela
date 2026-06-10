@@ -1,0 +1,24 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Backups de Excel
+*.bak
+*~
+
+# Archivos temporales
+~$*.xlsx
+~$*.xlsm
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+
+# Datos sensibles
+config_local.xlsx
+secrets.txt
